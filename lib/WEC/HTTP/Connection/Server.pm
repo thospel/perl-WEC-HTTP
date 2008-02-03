@@ -5,7 +5,7 @@ use warnings;
 use Carp;
 use Email::Simple;
 
-our $VERSION = '0.01';
+our $VERSION = '1.000';
 
 use WEC::HTTP::Request;
 use base qw(WEC::HTTP::Connection);

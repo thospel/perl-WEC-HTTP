@@ -6,7 +6,7 @@ use Carp;
 use URI;
 use Email::Date;
 
-our $VERSION = '0.01';
+our $VERSION = '1.000';
 
 use base qw(WEC::Object);
 

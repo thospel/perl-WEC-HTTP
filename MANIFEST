@@ -11,3 +11,4 @@ lib/WEC/HTTP/Connection/Server.pm
 lib/WEC/HTTP/Connection/Client.pm
 lib/WEC/HTTP/Constants.pm
 META.yml                                 Module meta-data (added by MakeMaker)
+md5-versions

@@ -7,7 +7,7 @@ use Carp;
 use WEC::HTTP::Connection::Client;
 use WEC::HTTP::Constants qw(PORT);
 
-our $VERSION = '0.01';
+our $VERSION = '1.000';
 
 our @CARP_NOT	= qw(WEC::FieldClient);
 

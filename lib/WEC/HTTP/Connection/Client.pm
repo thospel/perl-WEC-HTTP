@@ -6,7 +6,7 @@ use Carp;
 
 use WEC::HTTP::Request;
 
-our $VERSION = '0.01';
+our $VERSION = '1.000';
 
 use base qw(WEC::HTTP::Connection);
 
