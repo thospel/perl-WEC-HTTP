@@ -164,7 +164,7 @@ sub respond {
     my $sent;
     my $connection = $request->{parent};
     if ($request->{http_version}) {
-	$headers = ref($headers) ? $headers : 
+	$headers = ref($headers) ? $headers :
 	    Email::Simple->new(defined $headers ? $headers : "");
 	$headers->header_set("Date", Email::Date::format_date);
 	if ($connection->{signature}) {
@@ -178,7 +178,7 @@ sub respond {
 	    } else {
 		my $ct = $headers->header("Content-Type");
 		if (!defined $ct || $ct eq "") {
-		    $headers->header_set("Content-Type", 
+		    $headers->header_set("Content-Type",
 					 "text/html; charset=iso-8859-1");
 		}
 	    }
@@ -188,7 +188,7 @@ sub respond {
 	$public = $code_to_public{$code} if !defined $public;
 	defined $public || croak "Unknown code $code";
 	$code = sprintf("%03d", $code);
-	$headers = 
+	$headers =
 	    "$request->{http_version} $code $public\n" . $headers->as_string;
 
 	$headers =~ s/\r?\n/$CRLF/g;
