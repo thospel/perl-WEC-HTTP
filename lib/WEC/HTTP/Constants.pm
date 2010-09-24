@@ -1,7 +1,7 @@
 package WEC::HTTP::Constants;
 use 5.008;
-use warnings;
 use strict;
+use warnings;
 
 use Exporter::Tidy
     other		=> [qw(PORT)];
