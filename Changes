@@ -1,6 +1,7 @@
 Revision history for Perl extension WEC::HTTP.
 
-1.000	2011-09-04 12:37:44 UT
+1.000	2020-11-19 16:54:53 UT
+	- Added downgrade version check
 
 0.01  Thu Apr 14 17:06:39 2005
 	- original version; created by h2xs 1.23 with options
